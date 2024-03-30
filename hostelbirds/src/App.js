@@ -7,7 +7,9 @@ import Col from 'react-bootstrap/Col';
 import Stay from './components/Stay';
 import PropertyList from './components/ListProperties';
 import { Location } from './components/Location';
-import '../src/css/nav.css'
+import '../src/css/nav.css';
+import Included from './components/Included';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -83,13 +85,34 @@ function App() {
               )
             })
           }
+          {/* new code */}
+          <Col xs md={4} >
+                  <div >
+                    <img className="img-format" src='../images/Coins.png'></img>
+                    <strong>No booking fees </strong><br/>
+                    Never pay a booking fee. More money for living instead.
+                  </div>
+                </Col>
+                <Col xs md={4} >
+                  <div className>
+                    <img className="img-format" src='../images/Internet.png'></img>
+                    <strong>100% online process </strong><br/>
+                    Book rooms, chat with hosts, and pay rent online.                  </div>
+                </Col>
+                <Col xs md={4} >
+                  <div className>
+                    <img className="img-format" src='../images/Lock.png'></img>
+                    <strong>Payment protection</strong><br/>
+                    We securely collect your rent after you move in.                  </div>
+                </Col>
 
           
         </Row>
 
-
      </Container>
 
+     <Included></Included>
+     <Footer></Footer>
     </>
 
   );

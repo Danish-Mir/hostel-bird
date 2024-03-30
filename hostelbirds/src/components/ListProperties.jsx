@@ -1,8 +1,7 @@
 import React from 'react';
 import Property from './Property';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 import '../css/nav.css';
 
 

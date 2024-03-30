@@ -40,3 +40,34 @@
      display: block !important;
   }
 }
+.img-format{
+   padding-right: 20px;
+   border: 2px solid rgb(151, 151, 151);
+   max-width: 70px;
+   max-height: 70px;
+  }
+
+  .table-style{
+   padding-top: 40px;
+  }
+  .table-heading {
+   padding-top: 50px;
+   font-family: 'Segoe UI';
+   font-weight: 700;
+   font-size: 40px;
+ }
+ .green-tick {
+   color: green; /* Color of the tick */
+ }
+ .red-cross {
+   color: red; /* Color of the cross */
+ }
+.footer-style{
+   margin-left:100px;
+   background-color: black;
+   color: white;
+}
+.main-div{
+   background-color: black;
+
+}
