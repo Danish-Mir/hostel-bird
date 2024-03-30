@@ -48,8 +48,6 @@ function App() {
         <img src="./images/bg_rect.png" className="w-100" />
       </div>
     </div>
-     
-
      <Container className='mt-5'>
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h3 style={{ fontWeigt: 'bold' }}>Top Destinations</h3>
