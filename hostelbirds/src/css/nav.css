@@ -80,6 +80,7 @@
    font-weight: 700;
    font-size: 70px;
    color: #ffffff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9)
  }
  /* .nav-link-with-divider::after {
    content: "";
@@ -97,6 +98,7 @@
   font-weight:400;
   font-size:40px;
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9)
 }
 .nav-links
 {
@@ -104,6 +106,7 @@
   font-weight: 600;
   font-size: 18px;
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9)
 }
 .vl {
   border-left: 2px solid whitesmoke;
