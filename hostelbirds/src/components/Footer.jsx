@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import '../css/nav.css'
 const Footer = () => {
   return (
-   <div className='main-div'>
+   <div className='main-div'>      
     <div className='footer-style'>
       <img src="../images/bird.webp" alt="logo" srcset="" />
       <h1> Hostel Bird</h1>

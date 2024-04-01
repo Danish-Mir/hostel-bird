@@ -7,14 +7,14 @@ function Property({ data }) {
 
   console.log(data);
   return (
-    <Card style={{ width: '90%', background: 'transparent' }}>
+    <Card style={{ width: '90%',zIndex: 1,background:"transparent"}}>
       <Card.Img variant="top" src={Image} style={{ height: 200 }} className="img-fluid" />
       <Card.Body>
         <Card.Title>{Title}</Card.Title>
         <Card.Text style={{ color: 'white' }}>
           {Text}
         </Card.Text>
-        <Button variant="primary">Book Now</Button>
+        <Button variant="danger">Book Now</Button>
       </Card.Body>
     </Card>
   );

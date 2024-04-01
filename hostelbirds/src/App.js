@@ -10,6 +10,7 @@ import { Location } from './components/Location';
 import '../src/css/nav.css';
 import Included from './components/Included';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 function App() {
@@ -38,18 +39,24 @@ function App() {
 
   return (
     <>   
-     <NavigationBar></NavigationBar>
+     {/* <NavigationBar></NavigationBar> */}
+     <Header />
      
     <Container>
       <Stay></Stay>
     </Container>
-    <div>
-      <PropertyList />
+    <Container >
+  <div className="prop-main-div">
+    <div style={{ zIndex: 1 }}>
 
-      <div style={{ marginTop: '-14%' }}>
-        <img src="./images/bg_rect.png" className="w-100" />
-      </div>
+  <PropertyList />
     </div>
+    <div className="prop-bg-img">
+    <img style={{width:"1100px"}} src="./images/bg_rect.png" alt="Background"/>
+  </div>
+  </div>
+  
+</Container>
      <Container className='mt-5'>
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h3 style={{ fontWeigt: 'bold' }}>Top Destinations</h3>

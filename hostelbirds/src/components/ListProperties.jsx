@@ -2,6 +2,7 @@ import React from 'react';
 import Property from './Property';
 import Container from 'react-bootstrap/Container';
 
+
 import '../css/nav.css';
 
 
@@ -45,15 +46,14 @@ const ListProperties = () => {
     ];
   return ( 
     <Container> 
-      <div className="prop d-flex jsutify-content-between">
+        <div className="prop d-flex jsutify-content-between">
          {PropertyList.map((property, index) => (
             <div md={2}>
                <Property key={index} data={property} />
             </div>
-            
          ))}
       </div>
-      
+
     </Container>
   );
 }
